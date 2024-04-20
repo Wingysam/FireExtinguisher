@@ -1,0 +1,33 @@
+{
+  "name": "fire-extinguisher",
+  "version": "1.0.0",
+  "description": "Automatically shut the system down when \"canary\" files are accessed.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wingysam/FireExtinguisher.git"
+  },
+  "author": "Wingy <git@wingysam.xyz>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Wingysam/FireExtinguisher/issues"
+  },
+  "homepage": "https://github.com/Wingysam/FireExtinguisher#readme",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
